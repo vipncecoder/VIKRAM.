@@ -100,5 +100,23 @@ elem.addEventListener("mouseleave",function(){
 })
 })
 
+var page7ani= document.querySelectorAll(".lower1");
+page7ani.forEach(function(elem){
+    // console.log(elem.childNodes[3]);
+    elem.addEventListener("mouseenter", function(){
+        elem.style.transform='scaleY(160%)';
+        elem.childNodes[3].style.opacity=1
+        elem.childNodes[3].play()
+
+    })
+    elem.addEventListener("mouseleave", function(){
+        elem.style.transform='scaleY(100%)';
+        elem.childNodes[3].style.opacity=0
+        elem.childNodes[3].load()
+
+    })
+})
+var 
+
     
     
