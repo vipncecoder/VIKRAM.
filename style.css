@@ -564,6 +564,8 @@ nav button svg {
     margin-bottom: 18vh;
     margin-top: 5vh;
     font-size: 1rem;
+    transition: all ease 0.4s;
+
     /* font-weight: 10; */
 }
 .upper h4{
@@ -579,7 +581,7 @@ nav button svg {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    transition: all ease 0.3s;
+    transition: all ease 0.4s;
     /* transform: scaleY(1.2); */
 }
 .lower1 img{

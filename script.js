@@ -105,6 +105,7 @@ page7ani.forEach(function(elem){
     // console.log(elem.childNodes[3]);
     elem.addEventListener("mouseenter", function(){
         elem.style.transform='scaleY(160%)';
+        // elem.style.position='relative'
         elem.childNodes[3].style.opacity=1
         elem.childNodes[3].play()
 
@@ -116,7 +117,17 @@ page7ani.forEach(function(elem){
 
     })
 })
-var 
+var p7up= document.querySelectorAll(".cont1")
+p7up.forEach(function(elem){
+    
+    elem.addEventListener("mouseenter",function(){
+        elem.childNodes[1].childNodes[3].style.opacity=0;
+    })
+    elem.addEventListener("mouseleave",function(){
+        elem.childNodes[1].childNodes[3].style.opacity=1;
+    })
+})
+
 
     
     
